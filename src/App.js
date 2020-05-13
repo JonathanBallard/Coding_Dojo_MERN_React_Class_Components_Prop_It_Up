@@ -34,10 +34,10 @@ function App() {
 
   return (
     <div className="App">
-      < PersonCard p1 />
-      < PersonCard p2 />
-      < PersonCard p3 />
-      < PersonCard p4 />
+      < PersonCard person={p1} />
+      < PersonCard person={p2} />
+      < PersonCard person={p3} />
+      < PersonCard person={p4} />
     </div>
   );
 }
